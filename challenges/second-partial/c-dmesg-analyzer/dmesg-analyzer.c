@@ -126,7 +126,6 @@ void analizeLog(char *logFile, char *report) {
 
     if(archivo == NULL){
         printf("Error para crear el archivo");
-        exit(EXIT_FAILURE);
     }
 
     for (int i = 0; i < HASHSIZE; i++){
